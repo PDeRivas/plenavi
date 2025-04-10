@@ -7,7 +7,7 @@ var sectionStyle = {
 
 function Image1(){
     return(
-        <section className="relative sm:w-screen sm:h-screen h-120 bg-cover bg-center flex flex-col justify-center items-center text-white" style={ sectionStyle }>
+        <section className="relative sm:w-screen grande:h-[900px] xl:h-[800px] lg:h-[700px] h-120 bg-cover bg-center flex flex-col justify-center items-center text-white" style={ sectionStyle }>
             <div 
             style={{clipPath: "polygon(0% 10%, 0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 85%, 10% 85%, 10% 10%)"}}
             className='absolute top-2/5 border-4 sm:border-white border-transparent grande:w-285 grande:h-77 xl:w-200 xl:h-70 sm:w-180 sm:h-60'

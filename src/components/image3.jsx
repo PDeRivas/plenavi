@@ -19,7 +19,7 @@ function Image3(){
     }
 
     return(
-        <section className='relative w-screen h-screen bg-cover bg-center flex flex-col text-white' id='sumate'>
+        <section className='relative w-screen grande:h-[900px] xl:h-[800px] lg:h-[700px] bg-cover bg-center flex flex-col text-white' id='sumate'>
             <div className="absolute inset-0 bg-cover bg-center brightness-70" style={ sectionStyle }/>
             <div className='xl:ml-32 ml-20 mt-14 cahuenga z-10'>
                 <h4 className='font-bold grande:text-5xl text-4xl mb-10'>Necesitamos de todos</h4>
