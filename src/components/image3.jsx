@@ -19,11 +19,11 @@ function Image3(){
     }
 
     return(
-        <section className='relative w-screen grande:h-[900px] xl:h-[800px] lg:h-[700px] bg-cover bg-center flex flex-col text-white' id='sumate'>
+        <section className='relative w-screen grande:h-[900px] xl:h-[800px] lg:h-[700px] h-150 flex flex-col text-white' id='sumate'>
             <div className="absolute inset-0 bg-cover bg-center brightness-70" style={ sectionStyle }/>
-            <div className='xl:ml-32 ml-20 mt-14 cahuenga z-10'>
-                <h4 className='font-bold grande:text-5xl text-4xl mb-10'>Necesitamos de todos</h4>
-                <p className='xl:leading-12 leading-12 xl:text-3xl text-3xl font-light lato xl:w-130 w-110'>
+            <div className='xl:ml-32 sm:ml-20 mt-14 cahuenga z-10 sm:text-left text-center'>
+                <h4 className='font-bold grande:text-5xl sm:text-4xl text-3xl sm:mb-10 mb-5'>Necesitamos de todos</h4>
+                <p className='sm:leading-12 sm:text-3xl text-2xl font-light lato xl:w-130 sm:w-110'>
                     Compartir lo que hacemos es parte de
                     nuestro propósito, por eso queremos
                     llegar a diferentes puntos de la
@@ -35,9 +35,9 @@ function Image3(){
                     ayudar a la Fundación.
                 </p>
             </div>
-            <div onClick={changeContact} className='absolute z-50 cursor-pointer grande:left-200 xl:left-180 left-140 xl:top-95 top-100 flex flex-col bg-background grande:w-60 grande:h-60 w-45 h-45  items-center justify-center rounded-3xl'>
-                <img className='grande:w-35 w-30 pointer-events-none' src={dialogo} alt="" />
-                <p className='grande:text-4xl text-3xl font-bold text-dibujos cahuenga'>Hablemos</p>
+            <div onClick={changeContact} className='absolute z-50 cursor-pointer grande:left-200 xl:left-180 sm:left-140 left-1/2 sm:translate-x-0 translate-x-[calc(-50%)] xl:top-95 sm:top-100 top-115 flex flex-col bg-background grande:w-60 grande:h-60 sm:w-45 sm:h-45 w-30 h-30  items-center justify-center rounded-3xl'>
+                <img className='grande:w-35 sm:w-30 w-15 pointer-events-none' src={dialogo} alt="" />
+                <p className='grande:text-4xl sm:text-3xl text-xl font-bold text-dibujos cahuenga'>Hablemos</p>
             </div>
             <div className='absolute grande:left-300 xl:top-95 w-100 bg-background'>
                 <a href=""></a>
