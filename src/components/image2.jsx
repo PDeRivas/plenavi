@@ -10,10 +10,10 @@ var sectionStyle = {
 
 function Image2(){
     return(
-        <section className='relative sm:w-screen flex flex-col text-white'>
-            <div className="absolute inset-0 grande:h-[820px] xl:h-[800px] lg:h-[700px] h-140 sm:brightness-100 brightness-72 sm:bg-[length:160%] bg-[length:240%] sm:bg-[position:20%_30%] bg-[position:10%_30%]" style={{ backgroundImage: `url(${background_image})` }}/>
+        <section className='relative grande:h-[820px] xl:h-[800px] lg:h-[700px] h-140 flex flex-col text-white'>
+            <div className="absolute inset-0  sm:brightness-100 brightness-72 sm:bg-[length:160%] bg-[length:240%] sm:bg-[position:20%_30%] bg-[position:10%_30%]" style={{ backgroundImage: `url(${background_image})` }}/>
             <div className='z-10 xl:ml-32 sm:ml-20 grande:mt-50 sm:mt-35 mt-5 sm:text-left text-center'>
-                <h4 className='font-bold grande:text-5xl sm:text-4xl text-3xl sm:mb-10 mb-5 cahuenga'>Una nueva oportunidad</h4>
+                <h4 className='font-bold grande:text-5xl tablet:text-4xl text-3xl sm:mb-10 mb-5 cahuenga'>Una nueva oportunidad</h4>
                 <p className='sm:mx-0 mx-6 xl:leading-13 sm:leading-11 tablet:text-3xl text-2xl lato sm:w-125'>
                     Queremos construir un nuevo
                     paradigma de la tercera edad: de un
