@@ -32,8 +32,8 @@ let tarjetas = [
 function Ejes(){
     return(
         <div className="grande:mt-40 mt-10 xl:mx-20 mx-10" id='ejes'>
-            <h3 className="mb-5 sm:mx-16 mx-0 text-dibujos grande:text-5xl text-4xl sm:text-left text-center cahuenga">Ejes fundamentales</h3>
-            <div className="grid sm:grid-cols-4 grid-cols-1 xl:my-20 my-10">
+            <h3 className="mb-5 lg:mx-16 mx-0 text-dibujos grande:text-5xl text-4xl lg:text-left text-center cahuenga">Ejes fundamentales</h3>
+            <div className="grid lg:grid-cols-4 grid-cols-1 xl:my-20 my-10">
                 {tarjetas.map((contenido) =>{
                     return <Tarjeta imagen={contenido.imagen} titulo={contenido.titulo} texto={contenido.texto} />
                 })}

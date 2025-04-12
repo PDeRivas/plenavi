@@ -6,7 +6,7 @@ export default function Navbar() {
         <div className="w-full top-0 lg:mb-0 mb-10">
             <nav className='w-full flex lg:flex-row flex-col items-center justify-between px-6 bg-background text-textogris'>
                 <a href="/"><img className='xl:ml-5 grande:h-80 grande:w-130 xl:h-60 xl:w-100 h-40 w-80 object-fill' src={logo} alt="" /></a>
-                <ul className='lg:mb-0 mb-10 flex items-center xl:space-x-10 space-x-6 medium font-medium text-center grande:text-3xl xl:text-2xl text-xl lato'>
+                <ul className='lg:mb-0 mb-10 flex items-center xl:space-x-10 space-x-6 medium font-medium text-center grande:text-3xl sm:text-2xl text-xl lato'>
                     <li><a href="#meta">Meta</a></li>
                     <li><a href="#ejes">Ejes Fundamentales</a></li>
                     <li><a href="#sumate">Sumate</a></li>
