@@ -17,7 +17,7 @@ function Footer(){
                     <p className='text-textogris font-medium grande:text-2xl text-xl'>Fundacion Plenavi</p>
                 </div>
             </div>
-            <img className='grande:h-70 h-58 grande:w-100' src={logo} alt="" />
+            <img className='grande:h-70 h-58 grande:w-113 w-94' src={logo} alt="" />
         </footer>
     )
 }
