@@ -1,11 +1,11 @@
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.svg'
 import whatsapp from '../assets/whatsapp.svg'
 
 export default function Navbar() {
     return(
         <div className="w-full top-0 lg:mb-0 mb-10">
             <nav className='w-full flex lg:flex-row flex-col items-center justify-between px-6 bg-background text-textogris'>
-                <a href="/"><img className='xl:ml-5 grande:h-80 grande:w-130 xl:h-60 xl:w-100 h-40 w-80 object-fill' src={logo} alt="" /></a>
+                <a href="/"><img className='xl:ml-5 grande:h-80 grande:w-130 xl:h-60 xl:w-97 h-40 w-65 object-fill' src={logo} alt="" /></a>
                 <ul className='lg:mb-0 mb-10 flex items-center xl:space-x-10 space-x-6 medium font-medium text-center grande:text-3xl sm:text-2xl text-xl lato'>
                     <li><a href="#meta">Meta</a></li>
                     <li><a href="#ejes">Ejes Fundamentales</a></li>

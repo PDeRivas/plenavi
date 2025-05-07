@@ -25,10 +25,7 @@ function Image2(){
                     aquellas nuevas generaciones.
                 </p>
             </div>
-            <div className='absolute grande:left-200 xl:left-180 lg:left-150 left-1/2 lg:translate-x-0 translate-x-[calc(-50%)] grande:top-120 xl:top-118 md:top-80 sm:top-90 top-105 flex flex-col bg-dibujos grande:w-60 grande:h-60 sm:w-45 sm:h-45 w-30 h-30 items-center justify-center rounded-3xl'>
-                <img className='grande:w-35 sm:w-30 w-15' src={pareja} alt="" />
-                <p className='grande:text-4xl sm:text-3xl text-xl font-bold cahuenga'>Acompañar</p>
-            </div>
+            <img className='absolute grande:left-200 xl:left-180 lg:left-150 left-1/2 lg:translate-x-0 translate-x-[calc(-50%)] grande:top-120 xl:top-118 md:top-80 sm:top-90 top-105 grande:w-60  sm:w-45  w-30 ' src={pareja} alt="" />
         </section>
     )
 }

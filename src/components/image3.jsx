@@ -35,10 +35,7 @@ function Image3(){
                     ayudar a la Fundación.
                 </p>
             </div>
-            <div onClick={changeContact} className='absolute z-50 cursor-pointer grande:left-200 xl:left-180 lg:left-140 left-1/2 lg:translate-x-0 translate-x-[calc(-50%)] xl:top-95 sm:top-100 top-125 flex flex-col bg-background grande:w-60 grande:h-60 sm:w-45 sm:h-45 w-30 h-30  items-center justify-center rounded-3xl'>
-                <img className='grande:w-35 sm:w-30 w-15 pointer-events-none' src={dialogo} alt="" />
-                <p className='grande:text-4xl sm:text-3xl text-xl font-bold text-dibujos cahuenga'>Hablemos</p>
-            </div>
+            <img className='absolute z-50 cursor-pointer grande:left-200 xl:left-180 lg:left-140 left-1/2 lg:translate-x-0 translate-x-[calc(-50%)] xl:top-95 sm:top-100 top-125 grande:w-60 sm:w-45 w-30 pointer-events-none' src={dialogo} alt="" />
             <div className='absolute grande:left-300 xl:top-95 w-100 bg-background'>
                 <a href=""></a>
             </div>
