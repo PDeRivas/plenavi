@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 import Image1 from "../components/image1";
-import Video from "../components/video";
+import VideoSection from "../components/videoSection";
 import Image2 from "../components/image2";
 import Ejes from "../components/ejes";
 import Image3 from "../components/image3";
@@ -12,7 +12,7 @@ function Home(){
         <div className='w-screen h-screen'>
             <Navbar />
             <Image1 />
-            <Video />
+            <VideoSection />
             <Image2 />
             <Ejes />
             <Image3 />

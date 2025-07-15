@@ -35,7 +35,7 @@ function Image3(){
                     ayudar a la Fundación.
                 </p>
             </div>
-            <img className='absolute z-50 cursor-pointer grande:left-200 xl:left-180 lg:left-140 left-1/2 lg:translate-x-0 translate-x-[calc(-50%)] xl:top-95 sm:top-100 top-125 grande:w-60 sm:w-45 w-30 pointer-events-none' src={dialogo} alt="" />
+            <img className='absolute z-40 cursor-pointer grande:left-200 xl:left-180 lg:left-140 left-1/2 lg:translate-x-0 translate-x-[calc(-50%)] xl:top-95 sm:top-100 top-125 grande:w-60 sm:w-45 w-30 pointer-events-none' src={dialogo} alt="" />
             <div className='absolute grande:left-300 xl:top-95 w-100 bg-background'>
                 <a href=""></a>
             </div>
